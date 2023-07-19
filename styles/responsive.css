@@ -70,11 +70,45 @@
     .text{
         font-size: 10px;
     }
-
-    .types{
+    .game-types .types{
         display: grid;
         grid-template-columns: repeat(3,1fr);
       }
+      .games-py{
+        flex-direction: column;
+        margin: 0;
+       
+      }
+      .play-left img{
+        width: 300px;
+        height: 150px;
+        border-radius: 8px;
+        margin: 0;
+        margin-left: 40px;
+      }
+      .play-left{
+        width: 100%;
+      }
+      .play-right{
+        text-align: center;
+        padding-left: 0;
+        width: 100%;
+      }
+      .play-description{
+        text-align: center;
+        width: 200px;
+        margin: 0;
+        margin-left: 20px;
+    }
+    .play-left .other{
+        width: 130px;
+        height: 120px;
+        position: absolute;
+        top: 50px;
+        right: 20px;
+        border: 4px solid white;
+      }
+    
 
 }
 
@@ -115,4 +149,40 @@
         display: grid;
         grid-template-columns: repeat(4,1fr);
       }
+      /* .games-py{
+        flex-direction: column;
+        margin: 0;
+       
+      }
+      .play-left img{
+        width: 300px;
+        height: 150px;
+        border-radius: 8px;
+        margin: 0;
+        margin-left: 40px;
+      }
+      .play-left{
+        width: 100%;
+        margin: 0;
+      }
+      .play-right{
+        text-align: center;
+        padding-left: 0;
+        width: 100%;
+        margin-left: 100px;
+      }
+      .play-description{
+        text-align: center;
+        width: 200px;
+        margin: 0;
+        margin-left: 200px;
+    }
+    .play-left .other{
+        width: 130px;
+        height: 120px;
+        position: absolute;
+        top: 50px;
+        right: 380px;
+        border: 4px solid white;
+      }*/
 }
