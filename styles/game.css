@@ -52,3 +52,66 @@ nav{
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
 }
+
+/* banner section */
+
+.banner-container{
+    display: flex;
+}
+.banner-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+    width: 50%;
+    background-image: url("/images/Group\ 14.png");
+    background-repeat: no-repeat;
+}
+.banner-right{
+    width: 50%;
+}
+.banner-right img{
+    width: 100%;
+    height: 100%;
+    padding-right: 220px;
+    padding-left: 30px;
+}
+
+.btn-primary{
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    padding: 10px 20px;
+    border: none;
+}
+.btn-primary:hover{
+    cursor: pointer;
+}
+.btn-primary:active{
+    opacity: 0.2;
+}
+.btn-next{
+    margin-left: 8px;
+    border-radius: 48px;
+    background: #4EC5F7;
+    padding: 10px 20px;
+    border: none;
+}
+.btn-next:hover{
+    cursor: pointer;
+}
+.btn-next:active{
+    opacity: 0.2;
+}
+.banner-goat{
+    margin-top: 0;
+    font-size: 45px;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.play{
+    font-size: 30px;
+    margin-bottom: 6px;
+}
